@@ -89,6 +89,14 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5px);
   grid-gap: 15px;  
+  width: 100%;
+  max-width: 1200px;
+  
+  
+
+
+
+
 }
 
 .galeria_img {
@@ -106,6 +114,40 @@ main {
   grid-template-rows: repeat(5px);
   grid-gap: 15px;  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .fotos-salao {
   width: 287px;
@@ -264,7 +306,15 @@ color:  rgb(204, 199, 199);
     top: -7px;
   }
 
-  footer {
+.galeria {
+
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
+ footer {
     flex-direction: column;
   }
   
