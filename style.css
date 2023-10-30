@@ -307,34 +307,6 @@ color:  rgb(204, 199, 199);
   }
 
 
-
-
-
-
-
-  
-.galeria {
-
-  grid-template-columns: repeat(2, 1fr);
-}
-
-
-
-
- footer {
-    flex-direction: column;
-  }
-  
-  footer .boxs{
-    width: 100%;
-    text-align: center;
-  }
-  
-  footer .boxs:nth-child(4)
-  {
-    width: 100%;
-  }
-
 }
 
 
