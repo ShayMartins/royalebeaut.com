@@ -113,19 +113,27 @@ main {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5px);
   grid-gap: 15px;  
+  overflow: hidden;
 }
 
 
 
+.carrossel {
+  width: 901px;
+  height: 600px;
+  overflow: hidden;
+}
 
+.carrossel .fotos {
+  width: 500%;
+  animation-name: animacao;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
 
-
-
-
-
-
-
-
+.carrossel .fotos img {
+  width: 19.9%;
+}
 
 
 
@@ -236,6 +244,17 @@ text-align: center;
 color:  rgb(204, 199, 199);
 }
 
+@keyframes animacao {
+  0% { margin-left: 0; }
+  20% { margin-left: 0; }
+  25% { margin-left: -100%; }
+  45% { margin-left: -100%; }
+  50% { margin-left: -200%; }
+  70% { margin-left: -200%; }
+  75% { margin-left: -300%; }
+  95% { margin-left: -300%; }
+  100% { margin-left: -400%; }
+}
 
 
 @media (max-width: 750px) {
@@ -306,7 +325,7 @@ color:  rgb(204, 199, 199);
     top: -7px;
   }
 
-
+  
 }
 
 
