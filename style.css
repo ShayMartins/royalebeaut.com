@@ -147,6 +147,9 @@ main {
 
 }
 
+
+/* rodape*/
+
 footer {
   width: 100%;
   min-height: 250px;
@@ -162,7 +165,6 @@ footer {
 footer .boxs {
   width: 320px;
   min-height: 150px;
-  padding: 10px;   
   margin: 10px; 
       
 }
@@ -218,6 +220,13 @@ text-align: center;
 color:  rgb(204, 199, 199);
 }
 
+
+
+
+
+
+
+/* animacao */
 @keyframes animacao {
   0% { margin-left: 0; }
   20% { margin-left: 0; }
