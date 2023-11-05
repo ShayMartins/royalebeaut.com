@@ -334,9 +334,9 @@ color:  rgb(204, 199, 199);
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: calc(80% / 3 - 60px);
+  width: calc(90% / 3 - 60px);
   margin: 10px;
-  padding: 30px;
+  padding: 10px;
   box-shadow: 2px 2px 16px 0px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   background-color: white;
@@ -358,7 +358,7 @@ color:  rgb(204, 199, 199);
 }
 
 .texto {
-  font-size: 30px;
+  font-size: 15px;
 }
 
 /* Estilos para dispositivos móveis */
