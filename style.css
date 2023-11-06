@@ -312,6 +312,9 @@ list-style: none;
     transition: 0.5s 0.6s;
   }
 
+
+
+  
 }
   /* Estilos ativos */
 
@@ -340,26 +343,23 @@ list-style: none;
     top: -7px;
   }
 
-  @media (max-width:750px) {
-      footer {
-        flex-direction: column;
-      }
-      
-      footer .boxs{
-        width: 100%;
-        text-align: center;
-      }
-      
-      footer .boxs:nth-child(4)
-      {
-        width: 100%;
-      }
- }
+
+
+  footer {
+    flex-direction: column;
+  }
+  
+  footer .boxs{
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer .boxs:nth-child(4)
+  {
+    width: 100%;
+  }
 
   
-
-
-
 
  /* Estilos comuns para os cards */
  .secao4 {
@@ -412,7 +412,6 @@ list-style: none;
   .secao4-div-card {
       width: 100%;
   }
-
   
 }
 
