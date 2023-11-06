@@ -148,8 +148,6 @@ main {
 }
 
 /*servicos*/
-
-
 article > p {
   font-family: open sans;
   text-align: center;
@@ -223,6 +221,7 @@ footer .boxs {
   margin: 10px; 
   
 }
+
 footer .boxs:nth-child(4)
 {
 width: 300px;
@@ -251,9 +250,22 @@ list-style: none;
     
 }
 
+@media (max-width: 950px)
+{
+footer {
+  flex-direction: column;
+}
 
+footer .boxs{
+  width: 100%;
+  text-align: center;
+}
 
-
+footer .boxs:nth-child(4)
+{
+  width: 100%;
+}
+}
 
 
 
@@ -312,8 +324,7 @@ list-style: none;
     transition: 0.5s 0.6s;
   }
 
-
-
+ 
   
 }
   /* Estilos ativos */
@@ -344,20 +355,6 @@ list-style: none;
   }
 
 
-
-  footer {
-    flex-direction: column;
-  }
-  
-  footer .boxs{
-    width: 100%;
-    text-align: center;
-  }
-  
-  footer .boxs:nth-child(4)
-  {
-    width: 100%;
-  }
 
   
 
