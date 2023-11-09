@@ -121,6 +121,11 @@ main {
   width: 19.9%;
 }
 
+.equipe {  
+  min-width: 50%;
+
+}
+
 
 .fotos-salao {
   width: 287px;
