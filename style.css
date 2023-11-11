@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Parisienne&display=swap');
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
 }
 
 a {
-  font-family: open sans;
+  font-family: 'open sans';
   text-decoration: none;
   }
 
@@ -21,7 +21,7 @@ main {
   min-width: 280px;
   max-width: 900px;
   height: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(230, 166, 166);
   margin: auto;
   padding: 30px;       
   
@@ -121,11 +121,46 @@ main {
   width: 19.9%;
 }
 
-.equipe {  
-  min-width: 50%;
+/*servicos*/
 
+.cards {
+  display: flex;
+  padding: 32px;
+}
+.cards article.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgb(101, 152, 199);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 468px;
+  margin-left: 32px;
+  color: white;
+}
+.cards article.card h3 {
+  font-size: 100%;
+  margin: 16px 0;
 }
 
+.cards article.card a {
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 80%;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 720px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .cards article.card {
+    margin-left: 0;
+    margin-bottom: 32px;
+  }
+}
 
 .fotos-salao {
   width: 287px;
@@ -137,9 +172,18 @@ main {
 
 .texto-salao {
   font-family: open sans;
+  font-weight:normal;
   font-size: 22px;
   text-align: justify;
   margin-top: 10px;
+
+}
+
+.texto-titulo {
+  font-family: Parisienne;
+  color: #a17400;
+  font-size: 40px;
+  text-align: center;
 
 }
 
@@ -179,6 +223,7 @@ li {
   font-weight: bold;
   font-size: 30px;
   padding-top: 40px;
+  font-family: open sans;
   
 }
 
@@ -209,8 +254,7 @@ li {
 
 .wrapper {
   max-width: 65rem;
-  margin: 0 auto;
-  
+  margin: 0 auto;  
 }
 
 /*Botao*/
@@ -308,6 +352,10 @@ a:hover {
 
 
 /* rodape*/
+.conteiner-footer {
+   padding: 0 4%;
+    margin: auto;
+}
 footer {
   width: 100%;
   min-height: 250px;
@@ -316,10 +364,11 @@ footer {
 }
 
 footer .boxs {
-  width: 320px;
+  width: 200px;
   min-height: 150px;
-  padding: 5px;   
-  margin: 20px; 
+  padding: 1px;   
+  margin: 10px; 
+  align-items: center;
   
 }
 
@@ -331,11 +380,13 @@ width: 300px;
 .boxs h2 {
 color:  rgb(255, 255, 255);
 margin-bottom: 10px;
+font-family: open sans;
 font-size: 20px;
 }
 
 .boxs h3 {
 color:  rgb(204, 199, 199);
+font-family: open sans;
 margin-bottom: 10px;
 font-weight: lighter;
 }
@@ -378,7 +429,7 @@ list-style: none;
   padding: 10px;
   text-align: center;
   color:  rgb(204, 199, 199);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: open sans;
 }
 
 
@@ -403,6 +454,12 @@ footer .boxs{
 footer .boxs:nth-child(4)
 {
   width: 100%;
+}
+
+.equipe {
+  width: 100%;
+  text-align: center;
+
 }
 
 }
@@ -465,7 +522,6 @@ footer .boxs:nth-child(4)
     transition: 0.5s 0.6s;
   }
 
- 
   
 }
   /* Estilos ativos */
@@ -502,7 +558,7 @@ footer .boxs:nth-child(4)
  /* Estilos comuns para os cards */
  .secao4 {
   margin: 0;
-  font-family: Helvetica, sans-serif;
+  font-family: open sans;
 }
 
 .secao4-div {
@@ -511,6 +567,7 @@ footer .boxs:nth-child(4)
   justify-content: center;
   padding: 10px;
   text-align: center;
+  gap: 30px;
 }
 
 .secao4-div-card {
